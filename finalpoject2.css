@@ -1,0 +1,66 @@
+.experience-section,
+.education-section {
+    margin-top: 40px;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #0d95d4;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.skills-section {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.qualities,
+.programming-languages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.qualities div,
+.programming-languages div {
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.qualities img,
+.programming-languages img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
